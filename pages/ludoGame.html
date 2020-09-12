@@ -29,13 +29,39 @@
         body{
             background-image: url(https://nehaadnekar.github.io/Ludo-game/images/bckgrnd.jpg);
         }
+        td{
+            width:30px;
+            height:30px;
+            background-color: white;
+        }
+        table{
+            border:none;
+            display:inline;
+        }
+        td{
+            text-align:center;
+            white-space: nowrap;
+            padding:5px;
+        }
        
     </style>
     <script src="https://nehaadnekar.github.io/Ludo-game/pages/ludoGame.js"></script>
 </head>
 <body>
 
-    
+    <div>
+        <table cellspacing="0" cellpadding="0">
+            <tbody id="LudoBody"></tbody>
+        </table>
+        <div style="display: inline;padding-left:20%;">
+            <table id="PlayerTable" style="padding-top:10px;">
+                <tbody id="PlayerSelectionTBody">
+                </tbody>
+            </table>
+            <table id="DiceTable" style="display:none;">
+            </table>
+        </div>
+    </div>
     <div id="main">
     <div id="board"></div>
 
