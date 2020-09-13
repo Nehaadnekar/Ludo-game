@@ -9,6 +9,282 @@
             scroll-margin-top: 125px;
             scroll-behavior: smooth; 
         }
+        a{
+            text-align: center;
+            padding: 10px 50px ;
+            align-items: center;
+        }
+        .header{
+            background-color: black;
+            align-items: center;
+            position: sticky;
+            text-align: center;
+            top: 0;
+            list-style: none;
+            width: 100%;
+            height: 70px;
+            overflow: hidden;
+            
+        }
+        .header ul li{
+            font-weight: bolder;
+            display: inline-block;  
+        }
+        .header ul li a{
+            color: white;
+            display: block;
+            font-family: Arial, Helvetica, sans-serif; 
+            text-decoration: none;
+        }
+        .header ul li a:hover{
+            color: grey;
+            background-color: white;
+        }
+        
+        #firstheading{
+        background-image: url(https://nehaadnekar.github.io/Ludo-game/images/index.jpg);
+        font-size: 65px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 600px;
+        font-weight: 600;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+        margin-top: 40px;
+        }
+        #Start{
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bold;
+        }
+        #images{
+            display: flex;
+            width: 100%;
+            height: 200px;
+            margin-bottom: 150px;
+            justify-content: center;
+            margin-top: 30px;
+            align-items: center;  
+        }
+        /*#images::after{
+            display: block;
+            clear: both;
+            content: '';
+        }
+        .imag{
+            display: inline-block;
+            border-radius: 50%;
+            margin: 10px 40px;
+        } */
+
+        #Rules{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        #rule{
+            
+            background-color: black;
+            height: 560px;
+            width: 100%;
+            border: 1px;
+           
+        }
+        #p1{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 5px;
+            color: white;
+            
+        }
+        /* #leftside{
+            background-color: gray;
+            height: 560px;
+            width: 50%;
+            float: left;
+            border: 1px;
+           
+        }
+        #p1{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 5px;
+            color: white;
+            
+        }
+        .Pro1{
+            background-image: url(https://nehaadnekar.github.io/web-dev2020/images/p1.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            height: 180px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .Pro2{
+            background-image: url(https://nehaadnekar.github.io/web-dev2020/images/p2.jpeg);
+            font-family: Arial, Helvetica, sans-serif;
+            height: 180px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-weight: bold; 
+        }
+        .Pro3{
+            background-image: url(https://nehaadnekar.github.io/web-dev2020/images/p3.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            height: 180px;
+            text-align: center;
+            font-weight: bold;
+        }
+        #rightside{
+            float: right;
+            width: 49%;
+        } */
+        #TechUsed{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+            margin-top: 90px;
+            padding-left: 40%;
+        }
+        .box{
+            width: 20%;
+            float:left;
+            margin: 20px 15px;
+            background-color:lightgray;
+            padding: 15px;
+            box-shadow: 0 0 5px lightgray
+        }
+        .box img{
+            width:100%;
+            height:190px;
+            margin-bottom: 10px;
+        }
+         .box a{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 0.1px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 5px;
+            color: white;
+            background-color:orangered;
+            margin-top: auto;
+            margin-bottom: auto;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+        }
+        #boxes a:hover{
+            background-color: blue;
+        }
+        #boxes{
+            justify-content: center;
+            align-items: center;
+        }
+        #template {
+            color: black;
+            font-size: 20px;
+            order: 1; 
+        }
+        #Contact{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 580px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #footer {
+            height: 120px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+            background-color: pink;
+        }
+       
+        #backtotop {
+            margin-top: 15px;
+            font-size: 20px;
+            order: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#Rules">RULE BOOK</a></li>
+        <li><a href="#Start">START GAME</a></li>
+        <li><a href="#TechUsed">TECHNOLOGIES</a></li>
+        <li><a href="#Contact">CONTACT</a></li>
+    </ul>
+    </div>
+    <h1 id="firstheading">Welcome to LUDO MASTER</h1>
+    <h1 id="Start">Start Game</h1>
+    <div id="images">
+        <img >
+        
+    </div>
+    <h1 id="About">About US</h1>
+    <div class="container">
+        <div id="leftside">
+            <h2 style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: white;">About Projects</h2>
+            <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugiat architecto, vitae maxime esse accusamus iusto voluptatum itaque facilis modi aliquam! Eligendi accusamus consectetur dolorum debitis aliquam voluptas, laborum aliquid nihil? Quaerat assumenda fuga quis neque distinctio aperiam eveniet laboriosam, doloremque quas nulla veritatis quisquam ullam, alias exercitationem, a nihil voluptates sed dignissimos reprehenderit quod perspiciatis repellat veniam hic. Suscipit voluptatem dicta, odio provident officia vel explicabo perspiciatis tenetur rerum expedita excepturi repellat. Sint incidunt unde voluptates adipisci repudiandae! Sequi vitae similique impedit obcaecati odio ipsam eum aut laboriosam nulla esse amet, iusto nobis suscipit ad delectus voluptatem! Dolor, assumenda enim? Nobis, molestiae consequuntur unde modi at, consequatur impedit veniam magni rerum sequi culpa vero delectus repellendus quo ipsam amet commodi, eligendi asperiores nisi deserunt! Numquam harum et voluptatum soluta perspiciatis iusto minima tenetur, accusantium vitae, quidem tempora? Facilis consequatur quod molestias, placeat doloribus voluptates laborum quae? Temporibus aspernatur, nobis eius vitae placeat nihil suscipit, sit unde quasi omnis fuga recusandae ut illo commodi dolorum provident nisi, error corrupti similique. Consectetur, nam illum autem, optio, sequi cupiditate voluptates ad nihil vero est eveniet. Rem est assumenda minus praesentium eaque amet esse laudantium incidunt ipsum reiciendis excepturi, eos dolore dolor magni Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora laboriosam cumque laudantium accusamus molestias, praesentium quod amet quo ad laborum sunt sequi porro delectus? Veritatis dolorem vel, sunt soluta cupiditate porro beatae quisquam minus alias quae ad laboriosam sed nemo! Doloribus cum vitae molestiae veritatis explicabo natus repudiandae neque excepturi sint rerum, sit non culpa, sequi ad alias saepe ea! Fugit eveniet reprehenderit inventore repellat, molestias iste esse in unde animi eos repellendus aliquam id ex maxime adipisci consectetur dolorum sit voluptatum eius voluptatem laudantium magnam est necessitatibus. Temporibus debitis quibusdam, optio facilis dicta nihil sed blanditiis asperiores, ipsam neque reprehenderit dolore amet, assumenda consectetur unde dolorum</p>
+        </div>
+        <div id="rightside">
+            <div class="Pro1">Project-1</div>
+            <div class="Pro2">Project-2</div>
+            <div class="Pro3">Project-3</div>
+        </div>
+    </div>
+    <h1 id="TechUsed">Technology Used</h1>
+    <div id="boxes">
+        <div class="box">
+            <img id ="img2" src="https://nehaadnekar.github.io/web-dev2020/images/CSSintro.png">
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: medium;">Introduction to CSS</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, at dignissimos. Optio animi dicta perspiciatis elit consecutor at dignissimos consecutor!</p>
+            <a href="introtoCSS.html">Read More</a>
+        </div>
+
+        <div class="box">
+            <img id="img1" src="https://nehaadnekar.github.io/web-dev2020/images/introHTML.png" >
+        <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: medium;">Introduction to HTML</h2>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, at dignissimos. Optio animi dicta perspiciatis elit consecutor at dignissimos consecutor!</p>
+        <a href="introtoHTML.html">Read More</a>
+        </div>
+
+        <div class="box">
+            <img id ="img3" src="https://nehaadnekar.github.io/web-dev2020/images/introJS.jpg">
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: medium;">Introduction to JavaScript</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, at dignissimos. Optio animi dicta perspiciatis elit consecutor at dignissimos consecutor!</p>
+            <a href="introtoJS.html">Read More</a>
+        </div>
+    
+        <div class="box">
+            <img id ="img4" src="https://nehaadnekar.github.io/web-dev2020/images/bootstrapIntro.jpg">
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: medium;">Introduction to BootStrap</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, at dignissimos. Optio animi dicta perspiciatis elit consecutor at dignissimos consecutor!</p>
+            <a href="introtoBOOTSTRAP.html">Read More</a>
+        </div>
+    </div>
+    <h1 id="Contact">Contact</h1>
+        <div id="footer">
+            <p id="template">Website Template for Practical-8&#169<a href="https://www.beta-labs.in/">Beta-labs</a>
+            </p>
+            <a id="back" href="#top" target="">Back to top</a>
+        </div>
+    </body>
+</body>
+</html>
+    <!-- <style>
+        *{
+            scroll-margin-top: 125px;
+            scroll-behavior: smooth; 
+        }
         body{
             background: url(https://nehaadnekar.github.io/Ludo-game/images/index.jpg);
         }
@@ -62,4 +338,4 @@
 
 
 </body>
-</html>
+</html> -->
